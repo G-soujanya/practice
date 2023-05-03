@@ -1,0 +1,29 @@
+...........difference between compiler and interpreter..............
+compiler:
+->a compiler takes a program as whole
+->it is faster
+->it is more efficient
+->compiler are larger in size
+->if error present in any line it will not execute whole program
+interpreter:
+->an interpreter takes single line of code
+->it is slower
+->it is less efficient
+->interpreters are smaller than compilers
+->if error present in 5 th line code will be executed upto 5 th line.
+
+..............javascript v8 engine....................
+
+->V8 is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node.js, among others.
+->V8 compiles and executes JavaScript source code, handles memory allocation for objects, and garbage collects objects it no longer needs.
+->accurate garbage collector is one of the keys to V8’s performance.
+->V8 does however provide all the data types, operators, objects and functions specified in the ECMA standard.
+................javascript hoisting..........
+->Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+->Variables defined with let and const are hoisted to the top of the block, but not initialized.
+->Using a let variable before it is declared will result in a ReferenceError.
+->Using a const variable before it is declared, is a syntax error, so the code will simply not run.
+...............call,bind,apply..........
+->Call is a function that helps you change the context of the invoking function. In layperson's terms, it helps you replace the value of this inside a function with whatever value you want.
+->Apply is very similar to the call function. The only difference is that in apply you can pass an array as an argument list.
+->Bind is a function that helps you create another function that you can execute later with the new context of this that is provided.
